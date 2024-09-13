@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="index-style.css">
+  <script src="https://kit.fontawesome.com/ee131e7bcf.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <header>
+      <div class="container">
+          <h1 class="logo"><span class="pink-word">N</span>OKUTHULA.</h1>
+          <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+           <nav>
+             <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Services.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                
+              </ul>
+             
+         </nav>
+         
+        </div>
+
+        <img src="pictures/3Gif.gif"class="gif1">
+
+        <h1 class="slogan2">Hi,I'm <span class="pink-word">Nokuthula</span><br>Mkhwanazi</h1>
+        <p class="slogan">Junior software developer</p>
+  </header>
+
+  
+<div id="about">
+    <div class="container">
+        <div class="row">
+          <div class="icon-container">
+            <div class="icon"><i class="fa-brands fa-html5"></i></div>
+            <div class="icon"><i class="fa-solid fa-code"></i></div>
+            <div class="icon"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="icon"><i class="fa-brands fa-python"></i></div>
+            <div class="icon"><i class="fa-brands fa-js"></i></div>
+          </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>
+                  Passionate recent graduate in Information Technology: Software Development from Nelson
+                  Mandela University, with hands-on experience in ASP.NET, ASP.NET MVC, C#, HTML5, CSS, Python,
+                  and JavaScript. Eager to contribute effectively to a collaborative tech environment as a Junior
+                  Software Engineer, leveraging skills in developing and maintaining quality software and web
+                  applications.
+                </p>
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>Programming Languages</span><br>c#<br>Python<br>JavaScript</li>
+                    <li><span>Web Technologies</span><br>HTML<br>CSS<br>Node.js</li>
+                    <li><span>Frameworks</span><br>ASP.NET MVC<br>Boostrap</li>
+                    <li><span>Database</span><br>Microsoft SQL Server</li>
+                    <li><span>Tools and Technologies</span><br>Github<br>Visual studio</li>
+                  </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>12/2022</span><br>Examination Assistant</li>
+                    <li>-Counted and sorted examination scripts, ensuring accuracy and matching the<br> number written outside the paper</li>
+                    <li>-Developed strong attention to detail, ensuring precise counting and sorting.</li>
+                    <li>-Collaborated with team members to meet deadlines, completing tasks 4 days ahead of schedule</li>
+                    <li>-Demonstrated effective communication and problem-solving skills.</li>
+                    <li>-Adapted quickly to a fast-paced environment.</li>
+                  </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                  <ul>
+                    <li><span>2015-2019</span><br>Mtubatuba High School</li>
+                    <li>-Completed my matric with a Bachelor pass</li>
+                    <li><span>2020-2023</span><br>Nelson Mandela University</li>
+                    <li>-Completed coursework encompassing software development principles, algorithms,<br>and data structures, emphasizing practical application.</li>
+                    <li>-Proficient in C# programming language, with a strong grasp of object-oriented programming concepts.</li>
+                    <li>-Familiarity with web application development frameworks and technologies, including ASP.NET.</li>
+                    <li>-Developed skills in designing and implementing scalable web applications using modern<br> web technologies such as HTML, CSS, and JavaScript</li>
+                    <li>-Acquired hands-on experience in database management with Microsoft SQL Server.</li>
+                    <li>-Hands-on experience with version control systems, such as Git/GitHub.</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="Portfolio">
+   <div class="container">
+    <h1 class="sub-tittle">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="pictures/Sleeked.png">
+        <div class="layer">
+          <h3>salon website</h3>
+          <p> professional salon website, designed with HTML, JavaScript, and CSS  to showcase salon
+             services and previous work to potential clients. </p>
+
+            <a href="https://nondumiso04.github.io/sleeked/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="pictures/Drake.png">
+        <div class="layer">
+          <h3>Fan website</h3>
+          <p>fan website featuring Drake's albums and top music using
+            HTML, CSS, and JavaScript.
+            </p>
+
+            <a href="https://nondumiso04.github.io/Drake/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="pictures/enchatedBridalBotique.png">
+        <div class="layer">
+          <h3>enchated Bridal Botique</h3>
+          <p>a bridal dresses website for browsing and custom designs.</p>
+
+            <a href="file:///C:/Users/Mkhwanazi/Desktop/IN%20MY%20ZOOM/wedding/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://github.com/Nondumiso04" class="btn" target="_blank">see more</a>
+
+  </div>
+</div>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-tittle">Contact me</h1>
+        <p ><i class="fa-solid fa-paper-plane"></i> nokuthulanondumiso8@gmail.com</p>
+        <p  ><i class="fa-solid fa-phone"></i> 0761688698</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          
+        </div>
+        <a href="pictures/NokuthulaMkhwanaziCV.pdf" download="" target="_blank" class="btn btn2">Download CV</a>
+        
+
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="text" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Made with <i class="fa-solid fa-heart"></i> by Nokuthula</p>
+  </div>
+</div>
+
+   <script>
+
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+    
+    function opentab(tabname){
+      for (tablink of tablinks){
+        tablink.classList.remove("active-link")
+      }
+
+      for (tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+
+  </script>
+
+<script>
+         document.addEventListener("DOMContentLoaded", function() {
+  const icons = document.querySelectorAll('.icon');
+  const iconCount = icons.length;
+  
+  function showIconsSequentially() {
+    icons.forEach((icon, index) => {
+      setTimeout(() => {
+        // Fade in the current icon
+        icon.style.opacity = '1';
+        
+        // Fade out the previous icon (if exists)
+        if (index > 0) {
+          icons[index - 1].style.opacity = '0';
+        }
+        
+        // If it's the last icon, reset the animation cycle
+        if (index === iconCount - 1) {
+          setTimeout(() => {
+            icons.forEach((icon) => {
+              icon.style.opacity = '0'; // Hide all icons
+            });
+            showIconsSequentially(); // Restart the animation cycle
+          }, 2000); // Delay before resetting (adjust as needed)
+        }
+      }, index * 2000); // Adjust the delay (1000ms = 1 second)
+    });
+  }
+  
+    showIconsSequentially();
+   });
+
+   
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var sidemenu = document.getElementById("sidemenu");
+
+    window.openmenu = function() {
+        sidemenu.style.right = "0";
+    };
+
+    window.closemenu = function() {
+        sidemenu.style.right = "-200px";
+    };
+  });
+
+</script>
+<script>
+  function toggleMenu() {
+      var navList = document.getElementById("sidemenu");
+      navList.classList.toggle("show");
+    }
+</script>
+
+</body>
+</html>
